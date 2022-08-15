@@ -1,0 +1,140 @@
+.componentbutton-container {
+  display: flex;
+  position: relative;
+}
+.componentbutton-button {
+  width: var(--dl-size-size-xxlarge);
+  display: flex;
+  align-self: stretch;
+  transition: 0.3s;
+  align-items: center;
+  border-style: hidden;
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: 40px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #212a3f;
+}
+.componentbutton-button:hover {
+  transform: scale(1.1);
+  animation-delay: 3s;
+}
+.componentbutton-image {
+  width: 32px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.componentbutton-text {
+  color: #888888;
+  width: var(--dl-size-size-maxwidth);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Kite One;
+  font-weight: 400;
+}
+.componentbutton-root-class-name {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.componentbutton-root-class-name1 {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.componentbutton-root-class-name2 {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 1200px) {
+  .componentbutton-button {
+    width: var(--dl-size-size-xxlarge);
+  }
+  .componentbutton-image {
+    width: 32px;
+  }
+  .componentbutton-text {
+    width: var(--dl-size-size-maxwidth);
+    font-size: 16px;
+    align-self: center;
+    font-style: normal;
+    font-family: Kite One;
+    font-weight: 400;
+  }
+}
+@media(max-width: 991px) {
+  .componentbutton-button {
+    width: var(--dl-size-size-xxlarge);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: 40px;
+    background-color: #212a3f;
+  }
+  .componentbutton-text {
+    color: #888888;
+    width: var(--dl-size-size-maxwidth);
+    align-self: center;
+  }
+}
+@media(max-width: 767px) {
+  .componentbutton-button {
+    width: var(--dl-size-size-xxlarge);
+    height: 100%;
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: 40px;
+    background-color: #212a3f;
+  }
+  .componentbutton-image {
+    width: 32px;
+  }
+  .componentbutton-text {
+    color: #888888;
+    width: var(--dl-size-size-maxwidth);
+    height: auto;
+    font-size: 16px;
+    align-self: center;
+    font-style: normal;
+    font-family: Kite One;
+    font-weight: 400;
+    margin-left: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .componentbutton-button {
+    color: var(--dl-color-gray-900);
+    width: var(--dl-size-size-xxlarge);
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    padding-top: var(--dl-space-space-halfunit);
+    border-style: hidden;
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: 40px;
+    padding-bottom: var(--dl-space-space-halfunit);
+    background-color: #212a3f;
+  }
+  .componentbutton-image {
+    width: 32px;
+  }
+  .componentbutton-text {
+    color: #888888;
+    width: var(--dl-size-size-maxwidth);
+    height: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Kite One;
+    font-weight: 400;
+  }
+  .componentbutton-root-class-name {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .componentbutton-root-class-name1 {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .componentbutton-root-class-name2 {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
